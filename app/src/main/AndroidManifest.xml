@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mahdi.unitenniangrocery" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/orange"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ItemsType"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FreshVegetables"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FreshFruits"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BackedGoods"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OtherStuff"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Hypermarkets"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Giant"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Mydin"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Tesco"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".PaymentMethod"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MyChart"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CashOnDeliveryDate"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CashOnDeliveryTime"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Final"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FinalCredit"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".Evaluation"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".Comment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RecordUsers"
+            android:label="@string/app_name" >
+        </activity>
+
+
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

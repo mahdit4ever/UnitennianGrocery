@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unitennian Grocery</string>
+    <string name="about">About</string>
+    <string name="developer">Developer: Mahdi Altamimi</string>
+    <string name="version">Version: Android 4.0.3</string>
+    <string name="language">Language: English</string>
+    <string name="home">Home</string>
+    <string name="record">Record</string>
+    <string name="spinner_title">User</string>
+    <string name="details">Details: The moment that pops to your mind that to have grocery shopping while you are at your home, this app can grant to you three big hypermarkets in Malaysia (Giant, Mydin and Tesco) with the best and affordable prices for their products. You can compare among the three hypermarkets and choose the best among them in terms of price and delivery service.</string>
+    <string name="default_result">0</string>
+</resources>

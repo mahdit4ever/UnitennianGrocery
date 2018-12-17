@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/date_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text=" Please select time for your delivery" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:allowUndo="true"
+            android:id="@+id/morning">
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Afternoon"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:allowUndo="true"
+            android:id="@+id/afternoon">
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evening"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:allowUndo="true"
+            android:id="@+id/evening">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/t_selection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm !"
+        android:clickable="true"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:typeface="serif"/>
+
+
+
+
+</LinearLayout>
